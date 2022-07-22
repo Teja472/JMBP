@@ -23,7 +23,11 @@ pipeline {
 
        stage('Deploy Code') {
 	   
+<<<<<<< HEAD
 	  steps {
+=======
+          steps {
+>>>>>>> 792747e44808f9c3532432ae94c47c6784d9b2e4
                sh """
                echo "Deploying Code"
 			   """
