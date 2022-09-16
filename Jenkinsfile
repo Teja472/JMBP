@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages {
-       stage('Build Code') {
+       stage('Build Code present') {
            steps {
                sh """
                echo "Building Artifact for project samplewebapp"
